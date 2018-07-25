@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Task_8
 {
-	class Program
+	public class ProgramQ8
 	{
-		static void Main(string[] args)
+		public static void Main()
 		{
 			Console.WriteLine("Enter your final course mark (%): ");
 			int finalMark = Convert.ToInt32(Console.ReadLine());

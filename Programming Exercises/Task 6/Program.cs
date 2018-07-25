@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Task_6
 {
-	class Program
+	public class ProgramQ6
 	{
-		static void Main(string[] args)
+		public static void Main()
 		{
 			Console.WriteLine("Enter a number: ");
 			string num1 = Console.ReadLine();

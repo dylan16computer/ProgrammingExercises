@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Task_9
 {
-	class Program
+	public class ProgramQ9
 	{
-		static void Main(string[] args)
+		public static void Main()
 		{
 			string[] names = { "Eli", "Joshua", "Johan", "Troy", "Campbell" };
 			foreach (string name in names)

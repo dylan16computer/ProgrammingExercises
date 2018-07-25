@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Task_7
 {
-	class Program
+	public class ProgramQ7
 	{
-		static void Main(string[] args)
+		public static void Main()
 		{
 			Console.WriteLine("Please enter 3 numbers: ");
 			int num1 = Convert.ToInt32(Console.ReadLine());

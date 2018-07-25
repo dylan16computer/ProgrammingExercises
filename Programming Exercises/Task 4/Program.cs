@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Task_4
 {
-	class Program
+	public class ProgramQ4
 	{
-		static void Main(string[] args)
+		public static void Main()
 		{
 			Console.WriteLine("What is your first name?");
 			string firstName = Console.ReadLine();

@@ -48,5 +48,43 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Task 1\Task 1.csproj">
+      <Project>{2e541823-3b68-481d-8592-9d5940426547}</Project>
+      <Name>Task 1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task 2\Task 2.csproj">
+      <Project>{9a8eda0a-3efe-432e-b119-cf3776b6ad9f}</Project>
+      <Name>Task 2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task 3\Task 3.csproj">
+      <Project>{c0c263ff-900e-433c-9b7c-a094eabb2578}</Project>
+      <Name>Task 3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task 4\Task 4.csproj">
+      <Project>{58fb64b5-fdcb-4a7c-b39a-4565e8d8ac3d}</Project>
+      <Name>Task 4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task 5\Task 5.csproj">
+      <Project>{694cfb4d-06e1-4d1c-af41-b28803432a53}</Project>
+      <Name>Task 5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task 6\Task 6.csproj">
+      <Project>{b98610cd-36f6-45c8-9343-ee2cdedbe159}</Project>
+      <Name>Task 6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task 7\Task 7.csproj">
+      <Project>{648d4c94-86a5-430e-8026-79f4a644f5b6}</Project>
+      <Name>Task 7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task 8\Task 8.csproj">
+      <Project>{7ea03200-71f1-48c1-82e6-9dac71f3ed8a}</Project>
+      <Name>Task 8</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task 9\Task 9.csproj">
+      <Project>{17e1dc8b-13a2-4ef9-8129-d164ee2c491e}</Project>
+      <Name>Task 9</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
