@@ -15,7 +15,6 @@ namespace Task_9
 			{
 				Console.WriteLine(name);
 			}
-			Console.ReadLine();
 		}
 	}
 }

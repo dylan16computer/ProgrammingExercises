@@ -26,7 +26,6 @@ namespace Task_7
 			{
 				Console.WriteLine("Largest number is " + num3);
 			}
-			Console.ReadLine();
 		}
 	}
 }

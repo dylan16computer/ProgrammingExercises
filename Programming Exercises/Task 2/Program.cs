@@ -13,7 +13,6 @@ namespace Task_2
 			int num1 = 74;
 			int num2 = 36;
 			Console.WriteLine(num1 + " + " + num2 + " = " + (num1 + num2));
-			Console.ReadLine();
 		}
 	}
 }

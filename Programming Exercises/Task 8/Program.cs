@@ -20,7 +20,6 @@ namespace Task_8
 			{
 				Console.WriteLine("Sorry, you failed.");
 			}
-			Console.ReadLine();
 		}
 	}
 }

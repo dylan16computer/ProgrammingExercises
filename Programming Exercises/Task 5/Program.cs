@@ -16,7 +16,6 @@ namespace Task_5
 			{
 				Console.WriteLine(number + " * " + (i + 1) + " = " + (number * (i + 1)));
 			}
-			Console.ReadLine();
 		}
 	}
 }

@@ -21,7 +21,6 @@ namespace Task_6
             num2 = tempVar;
 			Console.WriteLine("Numbers Swapped:\nnum1: " + num1);
 			Console.WriteLine("num2: " + num2);
-			Console.ReadLine();
 		}
 	}
 }
