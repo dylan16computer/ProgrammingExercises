@@ -16,10 +16,12 @@ namespace Task_6
 			string num2 = Console.ReadLine();
 			Console.WriteLine("num1: " + num1);
 			Console.WriteLine("num2: " + num2);
-			string num1Swap = num2;
-			string num2Swap = num1;
-			Console.WriteLine("Numbers Swapped:\nnum1: " + num1Swap);
-			Console.WriteLine("num2: " + num2Swap);
+			string num1Swap = num1;
+			string num2Swap = num2;
+            num1 = num2Swap;
+            num2 = num1Swap;
+			Console.WriteLine("Numbers Swapped:\nnum1: " + num1);
+			Console.WriteLine("num2: " + num2);
 			Console.ReadLine();
 		}
 	}

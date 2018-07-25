@@ -11,12 +11,10 @@ namespace Task_3
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Please enter a number: ");
-			string num1 = Console.ReadLine();
-			int number1 = Convert.ToInt32(num1);
+			int num1 = Convert.ToInt32(Console.ReadLine());
 			Console.WriteLine("Please enter another number: ");
-			string num2 = Console.ReadLine();
-			int number2 = Convert.ToInt32(num2);
-			Console.WriteLine(num1 + " * " + num2 + " = " + number1 * number2);
+			int num2 = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine(num1 + " * " + num2 + " = " + (num1 * num2));
 			Console.ReadLine();
 		}
 	}
