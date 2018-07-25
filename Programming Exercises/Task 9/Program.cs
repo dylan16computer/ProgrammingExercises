@@ -11,9 +11,9 @@ namespace Task_9
 		static void Main(string[] args)
 		{
 			string[] names = { "Eli", "Joshua", "Johan", "Troy", "Campbell" };
-			foreach (string day in names)
+			foreach (string name in names)
 			{
-				Console.WriteLine(day);
+				Console.WriteLine(name);
 			}
 			Console.ReadLine();
 		}
