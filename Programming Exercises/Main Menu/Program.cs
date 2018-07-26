@@ -19,11 +19,12 @@ namespace Main_Menu
     {
         public static void Main()
         {
-            string repeat = "Y";
-            while (repeat == "Y")
+            string repeat = "y";
+            while (repeat == "y")
             {
                 Console.WriteLine("*** Main Menu ***\n\nEnter a number between 1 and 9 to select a program: ");
                 int input = Convert.ToInt32(Console.ReadLine());
+                
                 if (input > 0 && input < 10)
                 {
                     switch (input)
@@ -57,11 +58,11 @@ namespace Main_Menu
                             break;
                     }
                 }
-                else if (input < 1 || input > 9)
+                else
                 {
-                    Console.WriteLine("Number input is not within range.");
+                    Console.WriteLine("Number input is not within range. Please try again.");
                 }
-                Console.WriteLine("Type Y to continue OR any key to stop program");
+                Console.WriteLine("Type y to continue OR any key to stop program");
                 repeat = Console.ReadLine();
             }
         }
