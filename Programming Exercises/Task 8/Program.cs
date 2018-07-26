@@ -11,7 +11,7 @@ namespace Task_8
 		public static void Main()
 		{
 			Console.WriteLine("Enter your final course mark (%): ");
-			int finalMark = Convert.ToInt32(Console.ReadLine());
+			decimal finalMark = Convert.ToDecimal(Console.ReadLine());
 			if (finalMark >= 50)
 			{
 				Console.WriteLine("Congratulations, you passed!");
